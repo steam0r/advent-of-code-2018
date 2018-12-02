@@ -12,4 +12,4 @@ foreach ($lines as $line) {
     $threes++;
   }
 }
-print "caclulating $twos * $threes = " . ($threes * $twos) . "\n";
+print "calculating $twos * $threes = " . ($threes * $twos) . "\n";
