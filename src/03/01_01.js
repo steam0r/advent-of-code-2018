@@ -10,7 +10,7 @@ jQuery(document).ready(function () {
     }
     console.log(grid);
     input.forEach(function (line) {
-        let fields = line.split(/#([0-9]+) @ ([0-9]+),([0-9]+): ([0-9])+x([0-9])+/);
+        let fields = line.split(/#([0-9]+) @ ([0-9]+),([0-9]+): ([0-9]+)x([0-9]+)/);
         let claim = {
             "id": parseInt(fields[1]),
             "left": parseInt(fields[2]),
