@@ -6,9 +6,11 @@
 but do not work as arrays in array functions
 
 # usage:
+## 01
 ```bash
 php 01_01.php
 ```
+## 02
 ```bash
 php 01_02.php
 ```

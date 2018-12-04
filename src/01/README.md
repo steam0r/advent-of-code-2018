@@ -6,9 +6,11 @@
 * bash is really slow with arrays
 
 # usage:
+## 01
 ```
 cat input | 01_01.sh
 ```
+## 02
 ```
 cat input | 01_02.sh
 ```
