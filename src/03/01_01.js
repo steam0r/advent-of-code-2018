@@ -8,7 +8,6 @@ jQuery(document).ready(function () {
             grid[i][j] = 0;
         }
     }
-    console.log(grid);
     input.forEach(function (line) {
         let fields = line.split(/#([0-9]+) @ ([0-9]+),([0-9]+): ([0-9]+)x([0-9]+)/);
         let claim = {
@@ -20,7 +19,7 @@ jQuery(document).ready(function () {
         };
         for(let x = claim.left; x < claim.left + claim.width; x++) {
             for(let y = claim.top; y < claim.top + claim.height; y++) {
-                grid[x][y]++;
+                grid[y][x]++;
             }
         }
     });
