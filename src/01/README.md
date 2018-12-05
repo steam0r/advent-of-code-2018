@@ -8,11 +8,11 @@
 # usage:
 ## 01
 ```
-cat input | 01_01.sh
+cat input | 02_01.sh
 ```
 ## 02
 ```
-cat input | 01_02.sh
+cat input | 02_02.sh
 ```
 
 # performance:

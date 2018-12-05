@@ -6,8 +6,8 @@
 * https://www.debuggex.com/ is cool :)
 
 # usage:
-* open 01_01.html in browser
-* open 01_02.html in browser
+* open 03_01.html in browser
+* open 03_02.html in browser
 
 # performance:
 ## 01 (chromium - linux mint - one run)

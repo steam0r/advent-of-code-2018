@@ -7,11 +7,11 @@
 # usage:
 ## 01
 ```bash
-python 01_01.py
+python 04_01.py
 ```
 ## 02
 ```bash
-python 01_02.py
+python 04_02.py
 ```
 
 # performance:
@@ -23,7 +23,7 @@ sys     0m0,013s
 ```
 ## 02
 ```bash
-real    0m0,055s
-user    0m0,042s
-sys     0m0,012s
+real    0m26,728s
+user    0m26,710s
+sys     0m0,004s
 ```
